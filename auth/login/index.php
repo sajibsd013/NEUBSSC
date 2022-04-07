@@ -22,7 +22,7 @@ session_start();
         include '../../partials/_page_not_found.php';
     } else {
         include '../../partials/_header.php';
-        $action_url = '/NEUBSSC/auth/login/_login.php';
+        $action_url = '<?php echo $root_url ?>/auth/login/_login.php';
 
     ?>
         <div class="container section_top">
@@ -46,9 +46,9 @@ session_start();
                         </div>
                         <button type="submit" id="submit" class="btn btn-primary my-3 w-100 fw-bold">Login</button>
                     </form>
-                    <h6 style="cursor: pointer;" onclick="redirectTo('/NEUBSSC/auth/recover')" class="text-center text-primary">Forgotten password?</h6>
+                    <h6 style="cursor: pointer;" onclick="redirectTo('<?php echo $root_url ?>/auth/recover')" class="text-center text-primary">Forgotten password?</h6>
                     <p class="text-center text-muted fw-bold">or</p>
-                    <button id="" onclick="redirectTo('/NEUBSSC/auth/registration')" class="btn btn-sm btn-success m-auto d-block my-3 fw-bold ">Create new account</button>
+                    <button id="" onclick="redirectTo('<?php echo $root_url ?>/auth/registration')" class="btn btn-sm btn-success m-auto d-block my-3 fw-bold ">Create new account</button>
 
 
                 </div>

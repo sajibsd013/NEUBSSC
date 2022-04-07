@@ -10,7 +10,7 @@
                     <button type="button" class="btn btn-primary me-2 px-3 py-2 mb-2 " data-bs-toggle="modal" data-bs-target="#sign_up_modal">
                         Join us <i class="fa fa-arrow-circle-right   ms-1 "></i>
                     </button>
-                    <a href="/about/" class="btn btn-outline-primary p-2 mb-2 ">Learn more <i class="fa fa-info-circle     ms-1 "></i></a>
+                    <a href="#" class="btn btn-outline-primary p-2 mb-2 ">Learn more <i class="fa fa-info-circle     ms-1 "></i></a>
 
                 </div>
             </div>

@@ -23,7 +23,7 @@ session_start();
         include '../../partials/_page_not_found.php';
     } else {
         include '../../partials/_header.php';
-        $action_url = '/NEUBSSC/auth/registration/_registration.php';
+        $action_url = '<?php echo $root_url ?>/auth/registration/_registration.php';
     ?>
         <section class="container section_top">
             <div class="row justify-content-center g-3 my-2">
@@ -104,7 +104,7 @@ session_start();
                         </div>
                     </form>
                     <p class="text-center text-muted fw-bold">or</p>
-                    <button id="" onclick="redirectTo('/NEUBSSC/auth/login')" class="btn btn-sm btn-success m-auto d-block my-3 fw-bold px-6">Login Now</button>
+                    <button id="" onclick="redirectTo('<?php echo $root_url ?>/auth/login')" class="btn btn-sm btn-success m-auto d-block my-3 fw-bold px-6">Login Now</button>
 
 
                 </div>
