@@ -29,6 +29,8 @@ session_start();
 
 
     <!--  JS Files -->
+    <link rel=" stylesheet" href='assets/css/style.css'>
+
    <?php  include 'partials/_js_files.php'; ?>
 
    
