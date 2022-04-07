@@ -1,6 +1,6 @@
 <?php
-// $root_url = "https://neub-ssc.herokuapp.com";
-$root_url = "/NEUBSSC";
+$root_url = "https://neub-ssc.herokuapp.com";
+// $root_url = "/NEUBSSC";
 ?>
 
 <div class="fixed-top">
