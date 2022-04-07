@@ -1,6 +1,9 @@
 let element = document.getElementsByTagName("body")[0];
 element.setAttribute("id", "root");
 
+const root_url = "https://neub-ssc.herokuapp.com";
+// const root_url = "/NEUBSSC";
+
 
 // Reload
 const Reload = () => {
@@ -101,11 +104,11 @@ const submitForm = (e, url) => {
             response = req.responseText;
 
             if (response == 1) {
-                pageURL = "/NEUBSSC/";
+                pageURL = root_url;
                 redirectTo(pageURL);
             }
             else if (response == 2) {
-                pageURL = "/NEUBSSC/auth/login/";
+                pageURL = root_url+"/auth/login/";
                 redirectTo(pageURL);
 
             } else if (response == 3) {
@@ -126,14 +129,14 @@ const submitForm = (e, url) => {
 const logout = () => {
     let response = 0;
     let req = new XMLHttpRequest();
-    req.open('GET', '/NEUBSSC/auth/logout', true);
+    req.open('GET', root_url+'/auth/logout', true);
     req.send();
 
     req.onreadystatechange = () => {
         if (req.readyState == 4 && req.status == 200) {
             response = req.responseText;
             if (response == 1) {
-                const pageURL = "/NEUBSSC/";
+                const pageURL = root_url;
                 redirectTo(pageURL);
             }
         }

@@ -1,7 +1,7 @@
     <div class="container">
         <div class="row align-items-center flex-md-row-reverse">
             <div class="col-md-6 ">
-                <img class="img-fluid " src="/assets/img/blood_1.png" alt="">
+                <img class="img-fluid " src="assets/img/blood_1.png" alt="">
             </div>
             <div class="col-md-6">
                 <div class=" ms-md-5 ps-3">
