@@ -22,19 +22,19 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="/NEUBSSC/assets/img/carousel/img-1.png" alt="">
+                                    <img class="d-block w-100" src="<?php echo $root_url ?>/assets/img/carousel/img-1.png" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="/NEUBSSC/assets/img/carousel/img-2.png" alt="">
+                                    <img class="d-block w-100" src="<?php echo $root_url ?>/assets/img/carousel/img-2.png" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="/NEUBSSC/assets/img/carousel/img-3.png" alt="">
+                                    <img class="d-block w-100" src="<?php echo $root_url ?>/assets/img/carousel/img-3.png" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="/NEUBSSC/assets/img/carousel/img-4.png" alt="">
+                                    <img class="d-block w-100" src="<?php echo $root_url ?>/assets/img/carousel/img-4.png" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="/NEUBSSC/assets/img/carousel/img-5.png" alt="">
+                                    <img class="d-block w-100" src="<?php echo $root_url ?>/assets/img/carousel/img-5.png" alt="">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
