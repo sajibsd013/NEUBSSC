@@ -68,7 +68,7 @@
 
 
                             <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                                <img class='w-100' src="/NEUBSSC/assets/img/records/<?php echo $RecordID."/".$image ?>" alt="">
+                                <img class='w-100' src="<?php echo $root_url ?>/assets/img/records/<?php echo $RecordID."/".$image ?>" alt="">
                             </div>
                         <?php
                         }

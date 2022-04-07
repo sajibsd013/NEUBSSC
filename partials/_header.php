@@ -1,3 +1,8 @@
+<?php
+// $root_url = "https://neub-ssc.herokuapp.com";
+$root_url = "/NEUBSSC";
+?>
+
 <div class="fixed-top">
 
 
@@ -7,25 +12,25 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <a class="navbar-brand pointer" onclick="redirectTo('/NEUBSSC/')">
-                    <img src="/NEUBSSC/assets/img/logo.png" alt="">
+                <a class="navbar-brand pointer" onclick="redirectTo('<?php echo $root_url ?>/')">
+                    <img src="<?php echo $root_url ?>/assets/img/logo.png" alt="">
                 </a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active pointer" aria-current="page" onclick="redirectTo('/NEUBSSC/')">Home</a>
+                        <a class="nav-link active pointer" aria-current="page" onclick="redirectTo('<?php echo $root_url ?>/')">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pointer" onclick="redirectTo('/NEUBSSC/about/')">About</a>
+                        <a class="nav-link pointer" onclick="redirectTo('<?php echo $root_url ?>/about/')">About</a>
                     </li>
      
                     <li class="nav-item">
-                        <a class="nav-link pointer" onclick="redirectTo('/NEUBSSC/team/')">Team</a>
+                        <a class="nav-link pointer" onclick="redirectTo('<?php echo $root_url ?>/team/')">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pointer" onclick="redirectTo('/NEUBSSC/blood/')">Blood Donors</a>
+                        <a class="nav-link pointer" onclick="redirectTo('<?php echo $root_url ?>/blood/')">Blood Donors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pointer" onclick="redirectTo('/NEUBSSC/records/')">Records</a>
+                        <a class="nav-link pointer" onclick="redirectTo('<?php echo $root_url ?>/records/')">Records</a>
                     </li>
      
                 </ul>
@@ -41,7 +46,7 @@
 
                 ?>
                         <div class="mx-3">
-                            <a class="btn btn-sm btn-secondary " onclick="redirectTo('/NEUBSSC/admin')">
+                            <a class="btn btn-sm btn-secondary " onclick="redirectTo('<?php echo $root_url ?>/admin')">
                                 <i class="fa fa-dashboard" aria-hidden="true"></i> Admin Panel
                             </a>
                         </div>
@@ -61,10 +66,10 @@
                         <ul class="dropdown-menu dropdown-menu-end text-small" aria-labelledby="">
                             <li>
                                 
-                                <a class="dropdown-item pointer" onclick="redirectTo('/NEUBSSC/profile/?p=<?php echo $UserID ?>')"><i class="fa fa-user" aria-hidden="true"></i> Profile </a>
+                                <a class="dropdown-item pointer" onclick="redirectTo('<?php echo $root_url ?>/profile/?p=<?php echo $UserID ?>')"><i class="fa fa-user" aria-hidden="true"></i> Profile </a>
                             </li>
                             <li>
-                                <a class="dropdown-item pointer"  onclick="redirectTo('/NEUBSSC/settings/')"><i class="fa fa-gear" aria-hidden="true"></i> Settings </a>
+                                <a class="dropdown-item pointer"  onclick="redirectTo('<?php echo $root_url ?>/settings/')"><i class="fa fa-gear" aria-hidden="true"></i> Settings </a>
                             </li>
                             <div class="dropdown-divider"></div>
                             <li>
@@ -76,10 +81,10 @@
 
                 } else {
                 ?>
-                    <a class="btn btn-sm btn-outline-secondary mx-1" onclick="redirectTo('/NEUBSSC/auth/login')">
+                    <a class="btn btn-sm btn-outline-secondary mx-1" onclick="redirectTo('<?php echo $root_url ?>/auth/login')">
                         <i class="fa fa-sign-in" aria-hidden="true"></i>
                         Signin</a>
-                    <a class="btn btn-sm btn-outline-secondary  mx-1" onclick="redirectTo('/NEUBSSC/auth/registration')">
+                    <a class="btn btn-sm btn-outline-secondary  mx-1" onclick="redirectTo('<?php echo $root_url ?>/auth/registration')">
                         <i class="fa fa-sign-out" aria-hidden="true"></i>
                         Signup</a>
                 <?php
