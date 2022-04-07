@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 footer-contact">
-                        <img src="/NEUBSSC/assets/img/logo.png" alt="" class="img-fluid pb-3" />
+                        <img src="https://neub-ssc.herokuapp.com/assets/img/logo.png" alt="" class="img-fluid pb-3" />
                         <p>
                             Sheikhghat-Kazirbazar Road, Sylhet<br />
                             Bangladesh <br /><br />

@@ -16,7 +16,7 @@
             </div>
             <div class="col-md-6 py-3">
                 <div class="d-flex justify-content-center">
-                    <img class="img-fluid w-75 mx-auto" src="/NEUBSSC/assets/img/h_1.png" alt="">
+                    <img class="img-fluid w-75 mx-auto" src="assets/img/h_1.png" alt="">
                 </div>
             </div>
         </div>
