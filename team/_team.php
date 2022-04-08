@@ -33,7 +33,7 @@
         ?>
             <div class="col-md-4 col-sm-6 _cursor_pointer">
                 <div class='card shadow rounded'>
-                    <img src="/NEUBSSC/assets/img/team/<?php echo $image ?>" class="card-img-top w-50 _img_border rounded-circle mt-3 mx-auto " alt="...">
+                    <img src="<?php echo $root_url ?>/assets/img/team/<?php echo $image ?>" class="card-img-top w-50 _img_border rounded-circle mt-3 mx-auto " alt="...">
                     <div class="card-body text-center">
                         <h6 class="card-title my-1"><?php echo $name ?></h6>
                         <small class="card-text d-block text-muted"><?php echo $position ?></small>
@@ -66,7 +66,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-primary">Executive Committee (<?php echo $session2 ?>)</h5>
                         <small class="card-text text-muted d-block pb-3">You can see committee members by click below 'View Comittee' button</small>
-                        <a class="btn btn-sm btn-dark w-100 pointer" onclick="redirectTo('/NEUBSSC/team/?id=<?php echo $CommitteeID2 ?>')">View Committee</a>
+                        <a class="btn btn-sm btn-dark w-100 pointer" onclick="redirectTo('<?php echo $root_url ?>/team/?id=<?php echo $CommitteeID2 ?>')">View Committee</a>
                     </div>
                 </div>
             </div>

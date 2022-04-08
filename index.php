@@ -10,7 +10,6 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include 'partials/_css_files.php'; ?>
-    <!-- <link rel=" stylesheet" href='assets/css/style.css'> -->
 
 
     <title>NEUBSSC</title>
@@ -24,7 +23,6 @@ session_start();
     include 'partials/_about.php';
     include 'partials/_blood.php';
     include 'partials/_services.php';
-    // include 'partials/_team_slider.php';
 
     include 'partials/_footer.php';
     ?>
@@ -39,3 +37,5 @@ session_start();
 </body>
 
 </html>
+
+<!-- 9<iqA#7ZD<j&RFA/ -->

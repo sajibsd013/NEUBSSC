@@ -22,7 +22,7 @@ session_start();
         include '../../partials/_page_not_found.php';
     } else {
         include '../../partials/_header.php';
-        $action_url = '<?php echo $root_url ?>/auth/login/_login.php';
+        $action_url = $root_url.'/auth/login/_login.php';
 
     ?>
         <div class="container section_top">

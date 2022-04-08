@@ -19,7 +19,7 @@ session_start();
     <?php
     if (isset($_GET['p'])) {
         include '../partials/_header.php';
-        include 'partials/_profile.php';
+        include '_profile.php';
     } else {
         include '../partials/_page_not_found.php';
     }

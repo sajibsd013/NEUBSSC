@@ -5,7 +5,7 @@
                 <div class=" ms-md-5 ps-3 ">
                     <h1 class='fw-normal'>Non-political   <span class="text-success">Voluntary Organization</span> </h1>
                     <h6 class="text-muted mb-4">for the welfare of the people..</h6>
-                    <a href="/about/" class="btn btn-outline-primary px-4 mb-2 ">Learn more <i class="fa fa-info-circle    ms-1 "></i></a>
+                    <a href=#" class="btn btn-outline-primary px-4 mb-2 ">Learn more <i class="fa fa-info-circle    ms-1 "></i></a>
 
                 </div>
             </div>

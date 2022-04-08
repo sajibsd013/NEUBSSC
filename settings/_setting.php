@@ -7,8 +7,8 @@ $sql = "SELECT * FROM `users` WHERE `UserID`='$UserID'";
 $query = mysqli_query($con, $sql);
 $row = mysqli_fetch_assoc($query);
 
-$action_url = '<?php echo $root_url ?>/settings/config/_config.php';
-$action_url_pass = '<?php echo $root_url ?>/settings/config/_change_pass.php';
+$action_url =  $root_url.'/settings/config/_config.php';
+$action_url_pass = $root_url.'/settings/config/_change_pass.php';
 ?>
 <div class="row  section_top">
     <div class="col-md-11 col-11 mx-auto">

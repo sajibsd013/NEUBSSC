@@ -17,7 +17,7 @@ session_start();
 <body>
     <?php
     include '../../partials/_header.php';
-    $action_url = '/NEUBSSC/auth/recover/_recover.php';
+    $action_url = $root_url.'/auth/recover/_recover.php';
 
     ?>
     <div class="container section_top">

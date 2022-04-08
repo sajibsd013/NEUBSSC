@@ -1,8 +1,7 @@
 let element = document.getElementsByTagName("body")[0];
 element.setAttribute("id", "root");
 
-const root_url = "https://neub-ssc.herokuapp.com";
-// const root_url = "/NEUBSSC";
+const root_url = "/NEUBSSC";
 
 
 // Reload

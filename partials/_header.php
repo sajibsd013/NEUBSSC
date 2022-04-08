@@ -1,7 +1,4 @@
-<?php
-$root_url = "https://neub-ssc.herokuapp.com";
-// $root_url = "/NEUBSSC";
-?>
+
 
 <div class="fixed-top">
 
@@ -32,6 +29,7 @@ $root_url = "https://neub-ssc.herokuapp.com";
                     <li class="nav-item">
                         <a class="nav-link pointer" onclick="redirectTo('<?php echo $root_url ?>/records/')">Records</a>
                     </li>
+
      
                 </ul>
 
@@ -75,6 +73,7 @@ $root_url = "https://neub-ssc.herokuapp.com";
                             <li>
                                 <a class="dropdown-item pointer" onclick="logout()"> <i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
                             </li>
+
                         </ul>
                     </span>
                 <?php

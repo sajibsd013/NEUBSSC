@@ -17,10 +17,9 @@
       while ($row = mysqli_fetch_assoc($result)) {
         $CommitteeID  = $row['CommitteeID'];
         $session = $row['session'];
-        $committee_dlt = '/NEUBSSC/admin/committee/_config.php?CommitteeID=' . $CommitteeID;
-        $update_url = '/NEUBSSC/admin/committee/update.php?p=' . $CommitteeID;
-        $team_url = '/NEUBSSC/admin/team/?p=' . $CommitteeID;
-
+        $committee_dlt =  $root_url . '/admin/committee/_config.php?CommitteeID=' . $CommitteeID;
+        $update_url =  $root_url . '/admin/committee/update.php?p=' . $CommitteeID;
+        $team_url = $root_url . '/admin/team/?p=' . $CommitteeID;
 
         echo '
             <tr>
@@ -39,7 +38,7 @@
                 ';
       }
 
-      $action_url = "/NEUBSSC/admin/committee/_config.php";
+      $action_url =  $root_url . "/admin/committee/_config.php";
 
 
       ?>

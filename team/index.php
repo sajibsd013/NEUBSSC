@@ -26,7 +26,7 @@ session_start();
 
 
     <!--  JS Files -->
-    <?php  include '../../partials/_js_files.php'; ?>
+    <?php  include '../partials/_js_files.php'; ?>
 
 
 </body>

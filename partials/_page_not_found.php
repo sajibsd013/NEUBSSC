@@ -8,8 +8,7 @@
         <h1 class="display-1">404</h1>
         <h3>Page Not Found</h3>
         <p class="my-3 text-muted">Sorry, we can't find the page you're looking for.</p>
-        <!-- <button class="btn btn-sm btn-success" onclick="redirectTo('/NEUBSSC/')">Back to Home Page</button> -->
-        <button class="btn btn-sm btn-success" onclick="redirectTo('/')">Back to Home Page</button>
+        <button class="btn btn-sm btn-success" onclick="redirectTo('<?php echo $root_url ?>/')">Back to Home Page</button>
 
     </div>
 </div>

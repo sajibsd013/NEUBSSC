@@ -16,7 +16,7 @@
 
 <body>
     <?php include '../partials/_header.php' ?>
-    <?php include 'partials/_setting.php' ?>
+    <?php include '_setting.php' ?>
     <?php include '../partials/_footer.php' ?>
 
     
