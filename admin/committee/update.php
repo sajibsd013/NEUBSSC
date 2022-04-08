@@ -32,7 +32,7 @@ session_start();
                 $result = mysqli_query($con, $existsql);
                 $row = mysqli_fetch_assoc($result);
                 $session =  $row['session'];
-                $action_url = "/NEUBSSC/admin/committee/_config.php";
+                $action_url = $root_url."/admin/committee/_config.php";
 
 
 

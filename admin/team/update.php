@@ -41,14 +41,14 @@ include '../../db/_db.php';
                     if ($uImage) {
                         $tmp_name =  $_FILES['image']['tmp_name'];
                         $size =  $_FILES['image']['size'];
-                        $ext = pathinfo($image, PATHINFO_EXTENSION);
                         $image = $uImage;
+                        $ext = pathinfo($image, PATHINFO_EXTENSION);
                         if ($ext == 'jpg' or $ext == 'png' or $ext == 'jpeg') {
                             if ($size <= 2097152) {
                                 $sql = "UPDATE `members` SET `name` = '$updateName', `image` = '$image', `position` = '$uPosition' WHERE `MemberID` = '$MemberID'";
                                 $result = mysqli_query($con, $sql);
                                 if ($result) {
-                                    $path = "/NEUBSSC/assets/img/team/";
+                                    $path = $root_url."/assets/img/team/";
                                     move_uploaded_file($tmp_name, "../../assets/img/team/" . $image);
                                     $message = "Updated!";
                                 }
@@ -91,7 +91,7 @@ include '../../db/_db.php';
                                 $sql = "UPDATE `members` SET `name` = '$updateName', `image` = '$image', `position` = '$uPosition' WHERE `MemberID` = '$MemberID'";
                                 $result = mysqli_query($con, $sql);
                                 if ($result) {
-                                    $path = "/NEUBSSC/assets/img/team/";
+                                    $path = $root_url."/assets/img/team/";
                                     move_uploaded_file($tmp_name, "../../assets/img/team/" . $image);
                                     $message = "Updated!";
                                 }

@@ -87,17 +87,3 @@
 
 
 
-<div class="row my-2 g-5">
-    <div class="col-md-6">
-        <div class="chart-container">
-            <canvas id="chart-line" ></canvas>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="chart-container">
-            <canvas id="chart-bar" ></canvas>
-        </div>
-    </div>
-
-</div> 
-

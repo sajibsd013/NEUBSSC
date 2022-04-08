@@ -32,7 +32,7 @@
                 $blood_group   = $row['blood_group'];
                 $last_blood_donate   = $row['last_blood_donate'];
 
-                $user_dlt = '/NEUBSSC/admin/users/_config.php?UserID=' . $UserID;
+                $user_dlt = $root_url.'/admin/users/_config.php?UserID=' . $UserID;
 
 
                 echo '

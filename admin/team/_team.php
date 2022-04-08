@@ -54,9 +54,9 @@
                 $MemberID   = $row['MemberID'];
                 $name  = $row['name'];
                 $position = $row['position'];
-                $member_dlt = '/NEUBSSC/admin/team/_config.php?MemberID=' . $MemberID;
-                $update_url = '/NEUBSSC/admin/team/update.php?p=' . $MemberID;
-                // $team_url = '/NEUBSSC/admin/team/?p=' . $CommitteeID;
+                $member_dlt = $root_url.'/admin/team/_config.php?MemberID=' . $MemberID;
+                $update_url = $root_url.'/admin/team/update.php?p=' . $MemberID;
+                // $team_url = $root_url.'/admin/team/?p=' . $CommitteeID;
 
 
                 echo '

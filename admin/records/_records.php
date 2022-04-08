@@ -20,9 +20,9 @@
         $RecordID  = $row['RecordID'];
         $title = $row['title'];
         $description = $row['description'];
-        $dlt_url = '/NEUBSSC/admin/records/_config.php?RecordID=' . $RecordID;
-        $update_url = '/NEUBSSC/admin/records/update.php?p=' . $RecordID;
-        $upload_image = '/NEUBSSC/admin/records/upload.php?p=' . $RecordID;
+        $dlt_url = $root_url.'/admin/records/_config.php?RecordID=' . $RecordID;
+        $update_url = $root_url.'/admin/records/update.php?p=' . $RecordID;
+        $upload_image = $root_url.'/admin/records/upload.php?p=' . $RecordID;
 
         echo '
             <tr>
@@ -48,7 +48,7 @@
                 ';
       }
 
-      $action_url = "/NEUBSSC/admin/records/_config.php";
+      $action_url = $root_url."/admin/records/_config.php";
 
 
       ?>

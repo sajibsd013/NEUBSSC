@@ -33,7 +33,7 @@ session_start();
                 $row = mysqli_fetch_assoc($result);
                 $title =  $row['title'];
                 $description =  $row['description'];
-                $action_url = "/NEUBSSC/admin/records/_config.php";
+                $action_url = $root_url."/admin/records/_config.php";
 
 
 
